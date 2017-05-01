@@ -1,0 +1,23 @@
+{
+  "name": "async-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<wurmr@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "standard": "^10.0.2",
+    "webpack": "^2.4.1"
+  }
+}
