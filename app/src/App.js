@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 import Dynamic from './Dynamic'
 
 const App = () => {
   return (
-    <div className="App">
+    <div className='App'>
       <Dynamic />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -32,6 +32,11 @@ export default class Dynamic extends React.Component {
   render () {
     const {Hello, RowFooter} = this.state
 
-    return <span>rown content <br /><Hello name='hi' /><RowFooter /></span>
+    return (
+      <span>row content <br />
+        <Hello name='hi' />
+        <RowFooter />
+      </span>
+    )
   }
 }
