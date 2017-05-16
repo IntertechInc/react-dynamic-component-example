@@ -21,7 +21,9 @@ export default class Dynamic extends React.Component {
   }
 
   load () {
-    scriptjs('https://fierce-aluminum.glitch.me/bundle', () => {
+    const remoteScriptUrl = 'https://rawgit.com/IntertechInc/react-dynamic-component-example/master/customComponent/dist/bundle.js'
+
+    scriptjs(remoteScriptUrl, () => {
       this.setState({
         Hello: window.customComponents.Hello,
         RowFooter: window.customComponents.RowFooter
